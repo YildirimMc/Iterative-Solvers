@@ -9,7 +9,7 @@ def matmul(A, B):
                 res[i][j] += A[i][k] * B[k][j]
     return res
 
-def matvecmul(A, b):
+def matvecmul(A, b): 
     C = []
     for row in A:
         rowsum = 0
