@@ -92,7 +92,7 @@ def forth_sub_inv(L): # Inverts lower triangular matrix.
 
 def back_sub_inv(U): # Inverts upper triangular matrix.
     """
-    Inverts a upper triangular matrix.
+    Inverts an upper triangular matrix.
 
     Parameters:
     U (NDArray): Upper triangular matrix.
